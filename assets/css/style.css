@@ -1,0 +1,213 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-image: url('/assets/images/background/back2.jpg');
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  
+  header {
+    padding: 20px 0;
+  }
+  
+  header .menu-content,
+  footer .menu-content {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+  
+  h1 {
+    flex: 1;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  a {
+    padding: 5px 20px;
+    margin: 0;
+    color: #2a70e0;
+  }
+  nav a:hover,footer .item-col a:hover{
+    background-color: black;
+    color: #ffffff;
+    border-radius: 5px;    
+  }
+  
+  .jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('/assets/images/background/pexels-hsm0815-2689619.jpg');
+    background-size: cover;
+    color: #ffffff;
+    height: 400px;
+  }
+  
+  .jumbotron h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0 20px;
+    color: #fff;
+  }
+  
+  .jumbotron h3 {
+    margin: 0 20px;
+    color: #fff;
+  }
+  /* ABOUT ME */
+  section .resume-profile{
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    cursor: pointer; 
+  }
+ 
+  section .resume-profile .biography {
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  section .resume-profile img {
+      width: 100%;
+      height: auto;
+  }
+  
+  
+  .col-md-6 {
+    margin: 0 0 30px;
+  }
+  
+  .btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    color: #fbd1d5;
+    background-color: #ffffff;
+  }
+  
+  .btn.btn-primary:hover {
+    color: #ffffff;
+    background-color: #fbd1d5;
+  }
+  
+  .btn-secondary {
+    background-color: #2a70e0;
+    color: #ffffff;
+    margin: 0 0 30px;
+  }
+  /* EDUCATION */
+  .portrait {
+    width: 450px;
+    height: 300px;
+  }
+  
+  section .section-school{
+    text-align: justify;
+    margin: 20px auto;
+  }
+  .school-name{
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .section-school ul li{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 13px;
+    line-height: 1;
+  }
+  /* EXPERIENCE */
+  .icon-content h5{
+    margin-bottom: 10px;
+  }
+  .icon-content{
+    flex-direction: column;    
+  }
+  .icon-content i{
+    font-size: 5.5rem;
+  }
+  .icon-java{
+    color: #2a70e0;
+
+  }
+  .icon-content li{
+    padding-top: 15px;
+  }
+  
+  .container-prof{
+    flex-direction: column;
+    margin-left: 150px;
+  }
+  .container-prof h2{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .container-prof ul li{
+    padding-top: 10px;
+  }
+  /*******************CONTACT******************/
+  .contact-me {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  .contact-info {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info li {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .home-btn {
+    background-color: #1a73e8;
+    color: white;
+    text-decoration: none; 
+    padding: 8px 16px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 14px;
+  }
+  
+  .home-btn:hover {
+    background-color: #155ab6;
+  }
+  
+ 
+  /* FOOTER */
+  footer {
+    font-size: 12px;
+    padding: 20px 0;
+  }
+  
+  footer .items-content{
+    flex: 1;
+  }
+  footer .item-copyright{
+    flex: 1;
+    text-align: center;
+  }
+  footer .item-copyright p{
+    display: inline-block;
+    background-color: black;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  
+  
