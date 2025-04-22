@@ -5,8 +5,27 @@
         overflow-x: hidden;
     }
 
-    section .section-school{
+    header nav.menu{
+        display: none;
+    }
+    header .menu-content .icon-bar{
+        display: block;
+        flex: 1;
+    }
+    header .menu-content .icon-bar .fa-solid{
+        font-size: 2rem;
+        color: gray;
+        padding-left: 10px;
+    }
+    header .menu-content .icon-bar .fa-solid:hover{
+        color: black;
+    }
+    footer .items-content a{
+        font-size: 0.9rem;
+    }
+    footer .items-content {
         flex-wrap: wrap;
-      }
+        gap: 20px;
+    }
       
 }
