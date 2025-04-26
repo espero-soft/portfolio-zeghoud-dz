@@ -42,21 +42,29 @@ nav a:hover {
     background-color: #333;
 }
 
-/* Jumbotron */
+/* Section Jumbotron */
 .jumbotron {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/background/pexels-hsm0815-2689619.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/background/bg-hypnot.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 100px 20px;
+    padding: 120px 20px;
     border-bottom: 5px solid #ff5722;
+    animation: fadeIn 1.5s ease-in-out;
 }
 
 .jumbotron h2 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     margin-bottom: 20px;
     font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron h3 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-style: italic;
 }
 
 .jumbotron p {
@@ -77,6 +85,110 @@ nav a:hover {
 
 .jumbotron .btn:hover {
     background-color: #e64a19;
+}
+
+/* Section About */
+.about-home {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.about-home h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-home p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Section Skills */
+.skills-home {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    border-radius: 8px;
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.skills-home h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skills-list li {
+    font-size: 1.2rem;
+    color: #555;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skills-list i {
+    font-size: 2rem;
+    color: #ff5722;
+}
+
+/* Section Projects */
+.projects-home {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+.projects-home h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-item {
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.project-item p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
 }
 
 /* ABOUT ME */
@@ -185,6 +297,122 @@ section .section-school {
 
 .container-prof ul li {
     padding-top: 10px;
+}
+
+/* Amélioration de la section Expérience */
+#experience {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+#experience .icon-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#experience .icon-content:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+#experience h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#experience ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#experience ul li {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Section Réalisations Clés */
+.key-achievements {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.key-achievements h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.key-achievements ul {
+    list-style: none;
+    padding: 0;
+    color: #555;
+    line-height: 1.8;
+}
+
+.key-achievements ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.key-achievements ul li::before {
+    content: '\2022';
+    color: #ff5722;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Section Technologies Maîtrisées */
+.technologies {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+.technologies h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.technologies .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.technologies .tech-item {
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+}
+
+.technologies .tech-item i {
+    font-size: 3rem;
+    color: #ff5722;
+    margin-bottom: 10px;
 }
 
 /*******************CONTACT*******************/
@@ -369,6 +597,16 @@ footer a:hover {
     display: inline-block;
     width: 1em;
     margin-left: -1em;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 
